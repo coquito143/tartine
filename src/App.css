@@ -1,4 +1,6 @@
-
+#gallery-div {
+  min-height: 80vh;
+}
 .slider {
   margin: 30;
   height: 50vh;

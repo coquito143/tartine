@@ -12,7 +12,7 @@ export default function Gallery() {
     className: 'slider'
   }
   return (
-    <div>
+    <div id="gallery-div">
     <Slider  dots { ...settings }>
         <div >
           <img className="slider-images" src="https://i.imgur.com/5avbY0d.jpg" />
