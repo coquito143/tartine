@@ -1,1 +1,9 @@
-
+.slider {
+  margin: 30;
+  height: 50vh;
+  width: 80vw;
+}
+.slider-images {
+  height: 50vh;
+  width: 80vw;
+}
