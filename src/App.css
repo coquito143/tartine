@@ -1,1 +1,47 @@
+body {margin: 0;}
 
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFF6E6;
+  width: 1440px;
+  height: 140px;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: #53463F;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-family: FrutigerLTStd;
+  font-weight: bold;
+  font-size: 24px;
+  width: 115px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: white;}
+
+ul.topnav li a.active 
+
+ul.topnav li.right {float: right;}
+
+a {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+a.logo {
+  margin-right: 375px;
+  padding-right: 70px;
+  
+  
+}
