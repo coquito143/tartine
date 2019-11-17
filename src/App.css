@@ -1,4 +1,31 @@
+
 body {margin: 0;}
+
+#gallery-div {
+  min-height: 80vh;
+}
+.slider {
+  margin: 30;
+  height: 50vh;
+  width: 80vw;
+}
+.slider-images {
+  height: 50vh;
+  width: 80vw;
+}
+
+#bottom-homepage-div {
+  background-color: #6b4d17;
+  color: #F8F7F7;
+  min-height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#bottom-left-div, #bottom-right-div {
+  margin-left: 10vh;
+}
+
 
 ul.topnav {
   list-style-type: none;
