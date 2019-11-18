@@ -5,6 +5,55 @@ body {
   background-color: #fff6e6;
 }
 
+nav {
+  color: #53463F;
+}
+
+#top-nav-div, #bottom-nav-div {
+  display: flex;
+  width: 100%;
+}
+
+#top-nav-div {
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+#top-nav-div p{
+margin-bottom: 0;
+}
+
+#phone-number-div {
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+
+#logo-div{
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+#nav-right-div{
+  display: flex;
+  width: 30%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-right-div a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
 #gallery-div {
   margin-top: 5vh;
   min-height: 63vh;
