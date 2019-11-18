@@ -1,14 +1,15 @@
 #gallery-div {
-  min-height: 80vh;
+  min-height: 63vh;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .slider {
-  margin: 30;
-  height: 50vh;
-  width: 80vw;
+  width: 1321px;
+  
 }
 .slider-images {
-  height: 50vh;
-  width: 80vw;
+  height: 500px;
+  width: 100%;
 }
 
 #bottom-homepage-div {
@@ -21,5 +22,24 @@
 
 #bottom-left-div, #bottom-right-div {
   margin-left: 10vh;
+}
+
+.bottom-left-headline {
+  font-family: 'FrutigerLTStd-Bold';
+  font-size: 36px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 116px;
+  left: 60px;
+}
+
+.bottom-left-text{
+  font-family: 'FrutigerLTStd-Bold';
+  font-size: 26px;
+  text-decoration: none;
+  color: #45e6df;
+  position: absolute;
+  bottom: 77px;
+  left: 60px;
 }
 
