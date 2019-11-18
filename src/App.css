@@ -1,13 +1,18 @@
 
-body {margin: 0;}
+body {
+  font-family: "FrutigerLTStd";
+  margin: 0;
+  background-color: #fff6e6;
+}
 
 #gallery-div {
+  margin-top: 5vh;
   min-height: 63vh;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .slider {
-  width: 1321px;
+  width: 80vw;
   
 }
 .slider-images {
@@ -81,7 +86,7 @@ ul.topnav li a {
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
-  font-family: FrutigerLTStd;
+  font-family: "FrutigerLTStd";
   font-weight: bold;
   font-size: 24px;
   width: 115px;
