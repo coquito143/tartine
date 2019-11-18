@@ -16,15 +16,50 @@ body {margin: 0;}
 }
 
 #bottom-homepage-div {
-  background-color: #6b4d17;
+  background-color: #52473f;
   color: #F8F7F7;
   min-height: 60vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+#bottom-homepage-div h2{
+  font-size: 1.8em;
+  color: #e87427;
+  margin-top: 5vh;
+}
+
+.bigger-p {
+  font-size: 1.4em;
+}
+
+.smaller-p{
+  font-size: 1.1em;
+}
+
+#delivery-info-div {
+  margin-bottom: 10vh;
+}
+
+#seamless-link, #delivery-link, #grubhub-link, #eat24-link {
+  color: #45e6df;
+  text-decoration: none;
+}
+
 #bottom-left-div, #bottom-right-div {
   margin-left: 10vh;
+  margin-right: 10vh;
+}
+#bottom-right-div p {
+  display: block;
+}
+
+#hours-h2, #brunch-h2 {
+  margin-bottom: 1vh;
+}
+
+#copyright-info {
+  font-size: .7em;
 }
 
 
