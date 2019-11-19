@@ -6,7 +6,6 @@ import HomeSlider from './components/HomeSlider'
 import Menu from './components/Menu'
 import HomePageBottom from './components/HomePageBottom'
 import Gallery from './components/Gallery'
-import { Route } from "react-router-dom";
 
 function App() {
   return (
