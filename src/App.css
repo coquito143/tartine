@@ -1,9 +1,27 @@
+/********* General Styling  *********/
+
 body {
-  font-family: "FrutigerLTStd";
+  font-family: "Frutiger-Roman";
   margin: 0;
   background-color: #fff6e6;
+  color: #52473f;
+}
+@font-face {
+  font-family: "Frutiger-Roman";
+  src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
+} 
+
+@font-face { 
+  font-family: "Frutiger-Bold";
+  src: url("./fonts/FrutigerLTStd-Bold.otf") format("woff2");
 }
 
+@font-face {
+  font-family: "Frutiger-Light";
+  src: url("./fonts/FrutigerLTStd-Light.otf") format("woff2");
+}
+
+/********* Nav Styling  *********/
 nav {
   color: #53463f;
 }
@@ -18,8 +36,10 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
 }
-#top-nav-div p {
-  margin-bottom: 0;
+
+#top-nav-div p{
+margin-bottom: 0;
+font-size: 1.2em;
 }
 
 #phone-number-div {
@@ -42,19 +62,21 @@ nav {
   align-items: center;
 }
 
-#nav-right-div a {
+
+#nav-right-div a, .menu-options-div a{
   text-decoration: none;
   color: inherit;
   font-size: 1.2em;
-  font-weight: bold;
+  font-family: "Frutiger-Bold";
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
 }
 
+/********* Homepage Gallery Styling  *********/
 #gallery-div {
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   min-height: 63vh;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -67,6 +89,111 @@ nav {
   width: 100%;
 }
 
+/********* Menu Pages Styling  *********/
+#brunch-hero-img {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+}
+
+#brunch-menu-div {
+  margin-bottom: 5vw;
+}
+
+.menu-description-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu-options-div {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 3vw 10vw 0vw 12vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.menu-blurb-div p{
+  margin-left: 5vw;
+  margin-right: 10vw;
+  font-family: "Frutiger-Roman";
+  font-size: 1.2em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+}
+
+.dish-category-h2 {
+  margin-left: 12vw;
+  font-family: 'FrutigerBold';
+  font-size: 1.8em;
+  color: #e87427;
+}
+.menu-items-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-menu-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 5vw;
+}
+.right-menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.menu-item h3 {
+  font-family: 'Frutiger-Roman';
+  font-size: 1.2em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+
+.menu-items-right-div {
+  margin-right: 10vw;
+}
+
+.menu-items-left-div p {
+  margin: 0 5vw 2vw 15vw;
+  font-family: 'Frutiger-Light';
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+
+.menu-items-right-div p {
+  margin: 0 5vw 2vw 5vw;
+  font-family: 'Frutiger-Light';
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+/********* Bottom-Footer Styling  *********/
 #bottom-homepage-div {
   background-color: #52473f;
   color: #f8f7f7;
@@ -75,18 +202,25 @@ nav {
   grid-template-columns: 1fr 1fr;
 }
 
-#bottom-homepage-div h2 {
+#bottom-homepage-div h2{
+  font-family: "Frutiger-Bold";
   font-size: 1.8em;
   color: #e87427;
   margin-top: 5vh;
 }
 
 .bigger-p {
+  font-family: "Frutiger-Bold";
   font-size: 1.4em;
 }
 
 .smaller-p {
   font-size: 1.1em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
 }
 
 #delivery-info-div {
@@ -101,11 +235,17 @@ nav {
   text-decoration: none;
 }
 
-#bottom-left-div,
-#bottom-right-div {
-  margin-left: 10vh;
-  margin-right: 10vh;
+
+#bottom-left-div {
+  margin-left: 10vw;
+  margin-right: 5vw;
 }
+
+#bottom-right-div {
+  margin-left: 5vw;
+  margin-right: 10vw;
+}
+
 #bottom-right-div p {
   display: block;
 }
@@ -120,7 +260,8 @@ nav {
   margin-bottom: 10vh;
 }
 
-ul.topnav {
+
+/* ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -140,7 +281,6 @@ ul.topnav li a {
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
-  font-family: "FrutigerLTStd";
   font-weight: bold;
   font-size: 24px;
   width: 115px;
@@ -168,6 +308,12 @@ a.logo {
 
 .bottom-left-headline {
   font-family: "FrutigerLTStd-Bold";
+  
+  
+} */
+
+.bottom-left-headline {
+  font-family: 'Frutiger-Bold';
   font-size: 36px;
   color: #ffffff;
   position: absolute;
@@ -175,8 +321,9 @@ a.logo {
   left: 60px;
 }
 
-.bottom-left-text {
-  font-family: "FrutigerLTStd-Bold";
+
+.bottom-left-text{
+  font-family: 'Frutiger-Bold';
   font-size: 26px;
   text-decoration: none;
   color: #45e6df;
