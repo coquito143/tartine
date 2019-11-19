@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function Nav() {
   return (
     // <ul class="topnav">
@@ -20,7 +21,7 @@ export default function Nav() {
       </div>
       <div id="bottom-nav-div">
         <div id="logo-div">
-          <Link to='/' className="logo"><img src="./images/logo.jpg" title="Logo" /></Link>
+          <Link to='/' className="logo"><img id="logo-img" src="https://res.cloudinary.com/dcagc4c0j/image/upload/v1574198342/tartine_logo_doxprk.svg" title="Logo" /></Link>
         </div>
         <div id="nav-right-div">
           <Link to="/menu">Menu</Link>
