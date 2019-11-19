@@ -25,7 +25,7 @@ export default function Nav() {
         <div id="nav-right-div">
           <Link to="/menu">Menu</Link>
           <a href="#bakery">Bakery</a>
-          <a href="#gallery">Gallery</a>
+          <Link to="/gallery"><p>Gallery</p></Link>
         </div>
       </div>
     </nav>
