@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -19,12 +20,12 @@ export default function Nav() {
       </div>
       <div id="bottom-nav-div">
         <div id="logo-div">
-          <a className="logo" href="#top"><img src="./images/logo.jpg" title="Logo" /></a>
+          <Link className="logo" to="/"><img src="./images/logo.jpg" title="Logo" /></Link>
         </div>
         <div id="nav-right-div">
-          <a href="#menu">Menu</a>
-          <a href="#bakery">Bakery</a>
-          <a href="#gallery">Gallery</a>
+          <a href="/menu">Menu</a>
+          <a href="/bakery">Bakery</a>
+          <Link to="/gallery"><p>Gallery</p></Link>
         </div>
       </div>
     </nav>

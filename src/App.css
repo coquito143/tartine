@@ -1,4 +1,3 @@
-
 body {
   font-family: "FrutigerLTStd";
   margin: 0;
@@ -6,10 +5,11 @@ body {
 }
 
 nav {
-  color: #53463F;
+  color: #53463f;
 }
 
-#top-nav-div, #bottom-nav-div {
+#top-nav-div,
+#bottom-nav-div {
   display: flex;
   width: 100%;
 }
@@ -17,10 +17,9 @@ nav {
 #top-nav-div {
   flex-direction: row;
   justify-content: flex-end;
-
 }
-#top-nav-div p{
-margin-bottom: 0;
+#top-nav-div p {
+  margin-bottom: 0;
 }
 
 #phone-number-div {
@@ -28,13 +27,13 @@ margin-bottom: 0;
   margin-left: 5vw;
 }
 
-#logo-div{
+#logo-div {
   width: 30%;
   margin-left: 10%;
   margin-right: 20%;
 }
 
-#nav-right-div{
+#nav-right-div {
   display: flex;
   width: 30%;
   margin-right: 10%;
@@ -43,7 +42,7 @@ margin-bottom: 0;
   align-items: center;
 }
 
-#nav-right-div a{
+#nav-right-div a {
   text-decoration: none;
   color: inherit;
   font-size: 1.2em;
@@ -62,7 +61,6 @@ margin-bottom: 0;
 }
 .slider {
   width: 80vw;
-  
 }
 .slider-images {
   height: 500px;
@@ -71,13 +69,13 @@ margin-bottom: 0;
 
 #bottom-homepage-div {
   background-color: #52473f;
-  color: #F8F7F7;
+  color: #f8f7f7;
   min-height: 60vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-#bottom-homepage-div h2{
+#bottom-homepage-div h2 {
   font-size: 1.8em;
   color: #e87427;
   margin-top: 5vh;
@@ -87,7 +85,7 @@ margin-bottom: 0;
   font-size: 1.4em;
 }
 
-.smaller-p{
+.smaller-p {
   font-size: 1.1em;
 }
 
@@ -95,12 +93,16 @@ margin-bottom: 0;
   margin-bottom: 10vh;
 }
 
-#seamless-link, #delivery-link, #grubhub-link, #eat24-link {
+#seamless-link,
+#delivery-link,
+#grubhub-link,
+#eat24-link {
   color: #45e6df;
   text-decoration: none;
 }
 
-#bottom-left-div, #bottom-right-div {
+#bottom-left-div,
+#bottom-right-div {
   margin-left: 10vh;
   margin-right: 10vh;
 }
@@ -108,31 +110,33 @@ margin-bottom: 0;
   display: block;
 }
 
-#hours-h2, #brunch-h2 {
+#hours-h2,
+#brunch-h2 {
   margin-bottom: 1vh;
 }
 
 #copyright-info {
-  font-size: .7em;
+  font-size: 0.7em;
   margin-bottom: 10vh;
 }
-
 
 ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFF6E6;
+  background-color: #fff6e6;
   width: 1440px;
   height: 140px;
 }
 
-ul.topnav li {float: right;}
+ul.topnav li {
+  float: right;
+}
 
 ul.topnav li a {
   display: block;
-  color: #53463F;
+  color: #53463f;
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
@@ -144,28 +148,26 @@ ul.topnav li a {
   margin-top: 20px;
 }
 
+ul.topnav li a:hover:not(.active) {
+  background-color: white;
+}
 
-ul.topnav li a:hover:not(.active) {background-color: white;}
-
-ul.topnav li a.active 
-
-ul.topnav li.right {float: right;}
+ul.topnav li a.active ul.topnav li.right {
+  float: right;
+}
 
 .topnav a {
   margin-right: 50px;
   margin-left: 50px;
 }
 
-
 a.logo {
   margin-right: 375px;
   padding-right: 70px;
-  
-  
 }
 
 .bottom-left-headline {
-  font-family: 'FrutigerLTStd-Bold';
+  font-family: "FrutigerLTStd-Bold";
   font-size: 36px;
   color: #ffffff;
   position: absolute;
@@ -173,8 +175,8 @@ a.logo {
   left: 60px;
 }
 
-.bottom-left-text{
-  font-family: 'FrutigerLTStd-Bold';
+.bottom-left-text {
+  font-family: "FrutigerLTStd-Bold";
   font-size: 26px;
   text-decoration: none;
   color: #45e6df;
@@ -182,5 +184,111 @@ a.logo {
   bottom: 77px;
   left: 60px;
 }
+#gallery-top-image {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+#left-gallery-top {
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 260px;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+#right-gallery-top {
+  margin-left: 60px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 260px;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+.small-gallery-images-top {
+  height: 260px;
+  width: 260px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+.small-gallery-images-top:hover {
+  opacity: 0.7;
+}
+.small-gallery-images-top-right {
+  height: 260px;
+  width: 260px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+.small-gallery-images-top-right:hover {
+  opacity: 0.7;
+}
+
+.large-gallery-image-left {
+  margin-left: 60px;
+  margin-bottom: 80px;
+  height: 600px;
+  width: 600px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.large-gallery-image-left:hover {
+  opacity: 0.7;
+}
+.large-gallery-image-right {
+  margin-left: 60px;
+  margin-bottom: 80px;
+  height: 600px;
+  width: 600px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.large-gallery-image-right:hover {
+  opacity: 0.7;
+}
+
+#left-gallery-bottom {
+  margin-left: 60px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 260px 260px;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+#right-gallery-bottom {
+  margin-left: 60px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 260px 260px;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+.small-gallery-images-bottom {
+  height: 260px;
+  width: 260px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.small-gallery-images-bottom:hover {
+  opacity: 0.7;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+}
+#gallery-text {
+  font-family: "FrutigerLTStd";
+  width: 600px;
+  height:120px;
+  font-size: 24px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
