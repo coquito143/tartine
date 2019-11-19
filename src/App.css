@@ -26,6 +26,7 @@ nav {
   color: #53463f;
 }
 
+
 #top-nav-div,
 #bottom-nav-div {
   display: flex;
@@ -51,8 +52,13 @@ font-size: 1.2em;
   width: 30%;
   margin-left: 10%;
   margin-right: 20%;
+  display: flex;
+  align-items: center;
 }
 
+#logo-img {
+  width: 20vh;
+}
 #nav-right-div {
   display: flex;
   width: 30%;

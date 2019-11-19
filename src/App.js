@@ -7,8 +7,6 @@ import Menu from './components/Menu'
 import HomePageBottom from './components/HomePageBottom'
 import Gallery from './components/Gallery'
 
-
-
 function App() {
   return (
     <div className="App">
