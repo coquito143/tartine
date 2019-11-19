@@ -6,7 +6,8 @@ import HomeSlider from './components/HomeSlider'
 import Menu from './components/Menu'
 import HomePageBottom from './components/HomePageBottom'
 import Gallery from './components/Gallery'
-import { Route } from "react-router-dom";
+
+
 
 function App() {
   return (
@@ -15,7 +16,6 @@ function App() {
 
       <Route exact path="/" render={() => <HomeSlider />}></Route>
       <Route path="/gallery" render={() => <Gallery />}></Route>
-
       <Route path="/menu" render={() =>
             <Menu />}
           />
