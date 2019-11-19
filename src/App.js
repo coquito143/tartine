@@ -14,7 +14,6 @@ function App() {
 
       <Route exact path="/" render={() => <HomeSlider />}></Route>
       <Route path="/gallery" render={() => <Gallery />}></Route>
-
       <Route path="/menu" render={() =>
             <Menu />}
           />
