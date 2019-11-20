@@ -15,7 +15,6 @@ export default function HomeSlider() {
   return (
     <div id="gallery-div">
       <Slider dots {...settings}>
-        <div>
           <img
             className="slider-images"
             src="https://i.imgur.com/9ZXH9iK.jpg"
@@ -24,7 +23,6 @@ export default function HomeSlider() {
             A Parisian Brunch <br></br>in the West Village
           </p>
           <Link className="bottom-left-text" to="/gallery"><p>Take a look ➜</p></Link>
-        </div>
         <div>
           <img
             className="slider-images"
