@@ -4,11 +4,14 @@ import Popup from "reactjs-popup";
 export default function Gallery() {
   return (
     <div>
-      <div>
+      <div id="gallery-top-image-container">
         <img
           id="gallery-top-image"
           src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092208/photo-title-photogallery_xwraet.jpg"
         />
+        <p id="galler-top-image-text">
+          Photo Gallery
+        </p>
       </div>
       <div id="gallery">
         <div id="left-gallery">
@@ -23,8 +26,8 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092204/photogallery-full-01_b2cdfg.jpg"></img>
-              )}
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092204/photogallery-full-01_b2cdfg.jpg"></img>
+              
             </Popup>
             <Popup
               trigger={
@@ -36,7 +39,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092204/photogallery-full-02_sqwyov.jpg" />
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092204/photogallery-full-02_sqwyov.jpg" />
             </Popup>
           </div>
           <Popup
@@ -49,7 +52,7 @@ export default function Gallery() {
             modal
             closeOnDocumentClick
           >
-            <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-03_l3kbqv.jpg" />
+            <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-03_l3kbqv.jpg" />
           </Popup>
 
           <div id="left-gallery-bottom">
@@ -63,7 +66,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-04_uc52kk.jpg" />
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-04_uc52kk.jpg" />
             </Popup>
             <Popup
           trigger={
@@ -75,7 +78,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-05_ehjvue.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-05_ehjvue.jpg"/>
             </Popup>
             <Popup
             trigger={
@@ -87,7 +90,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-06_vkhoid.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-06_vkhoid.jpg"/>
             </Popup>
             <Popup
             trigger={
@@ -99,16 +102,16 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-07_ozllcs.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-07_ozllcs.jpg"/>
             </Popup>
           </div>
         </div>
 
         <div id="right-gallery">
-          <h1 id="gallery-text">
+          <p id="gallery-text">
             Here are photos of Tartine and our great food.<br></br> Click an
             image to enlarge.
-          </h1>
+          </p>
 
           <div id="right-gallery-top">
           <Popup
@@ -121,7 +124,7 @@ export default function Gallery() {
             modal
             closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092208/photogallery-full-08_ihxqfn.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092208/photogallery-full-08_ihxqfn.jpg"/>
             </Popup>
             <Popup
           trigger={
@@ -133,7 +136,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092207/photogallery-full-09_admczx.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092207/photogallery-full-09_admczx.jpg"/>
               </Popup>
           </div>
           <Popup
@@ -146,7 +149,7 @@ export default function Gallery() {
             modal
             closeOnDocumentClick
           >
-            <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-10_uhtrpl.jpg"/>
+            <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-10_uhtrpl.jpg"/>
             </Popup>
           <div id="right-gallery-bottom">
           <Popup
@@ -159,7 +162,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-11_jiri8n.jpg"/>
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-11_jiri8n.jpg"/>
             </Popup>
             <Popup
           trigger={
@@ -171,7 +174,7 @@ export default function Gallery() {
               modal
               closeOnDocumentClick
             >
-              <img src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-12_sdg439.jpg" />
+              <img className="modal-pics" src="https://res.cloudinary.com/dqxcatzfo/image/upload/v1574092203/photogallery-full-12_sdg439.jpg" />
               </Popup>
           </div>
         </div>
