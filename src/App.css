@@ -451,7 +451,13 @@ a.logo {
 }
 
 
+
 @media only screen and (max-width: 600px) {
+
+  html,body {
+    overflow-x: hidden;
+  }
+
   .slider-images {
     width: 320px;
     height: 280px;
@@ -612,5 +618,62 @@ p.smaller-p{
 h2#brunch-h2{
   left: 20px;
 }
+
+#brunch-hero-img {
+  height: 120px;
+  width: 320px;
+  object-fit: cover;
+  /* object-position: 50px; */
+  margin: 0px;
+}
+
+
+.menu-items-left-div p {
+  align-items: center;
+  margin: 0px;
+}
+
+.menu-items-right-div p {
+  align-items: center;
+  margin: 0;
+}
+
+.menu-items-right-div{
+  margin: 0 !important;
+}
+
+.menu-items-div {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-description-div {
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+
+.left-menu-item{
+ margin: 0px;
+}
+
+.menu-blurb-div p {
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.right-menu-item {
+margin: 0px;
+}
+
+.menu-items-div p {
+margin: 0px;
+}
+
+
 
 }
