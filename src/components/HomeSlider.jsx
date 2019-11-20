@@ -6,8 +6,7 @@ export default function HomeSlider() {
   const settings = {
     dots: true,
     arrows: false,
-    autoplay: true,
-    autoplayScroll: 1,
+    autoplay: false,
     autoplaySpeed: 4000,
     className: "slider",
     initialSlide: true
@@ -15,6 +14,7 @@ export default function HomeSlider() {
   return (
     <div id="gallery-div">
       <Slider dots {...settings}>
+        <div>
           <img
             className="slider-images"
             src="https://i.imgur.com/9ZXH9iK.jpg"
@@ -23,6 +23,7 @@ export default function HomeSlider() {
             A Parisian Brunch <br></br>in the West Village
           </p>
           <Link className="bottom-left-text" to="/gallery"><p>Take a look ➜</p></Link>
+          </div>
         <div>
           <img
             className="slider-images"
@@ -31,7 +32,7 @@ export default function HomeSlider() {
           <p className="bottom-left-headline">
             From a tasty brunch <br></br>to a romantic dinner
           </p>
-          <Link className="bottom-left-text" to="/gallery"><p>See our dishes ➜</p></Link>
+          <Link className="bottom-left-text" to="/menu"><p>See our dishes ➜</p></Link>
         </div>
         <div>
           <img
