@@ -11,18 +11,23 @@ export default function Nav() {
     //   <li><a className="logo" href="#top"><img src="./images/logo.jpg" title="Logo" /></a></li>
     // </ul>
     <nav>
+  
       <div id="top-nav-div">
         <div id="address-div">
-          <p>253 West 11 Street • New York City</p>
+          <p>253 West 11 Street<span className="dot">•</span>New York City</p>
         </div>
         <div id="phone-number-div">
-          <p>+1 212 555 4444</p>
+          <p>+1 212 229 2611</p>
         </div>
       </div>
+
       <div id="bottom-nav-div">
         <div id="logo-div">
-          <Link to='/' className="logo"><img id="logo-img" src="https://res.cloudinary.com/dcagc4c0j/image/upload/v1574198342/tartine_logo_doxprk.svg" title="Logo" /></Link>
+          <Link to='/' className="logo">
+            <img id="logo-img" src="https://res.cloudinary.com/dcagc4c0j/image/upload/v1574198342/tartine_logo_doxprk.svg" title="Logo" />
+          </Link>
         </div>
+
         <div id="nav-right-div">
           <Link to="/menu">Menu</Link>
           <a href="#bakery">Bakery</a>
