@@ -233,10 +233,7 @@ font-size: 1.2em;
   margin-bottom: 10vh;
 }
 
-#seamless-link,
-#delivery-link,
-#grubhub-link,
-#eat24-link {
+.delivery-link {
   color: #45e6df;
   text-decoration: none;
 }
@@ -454,13 +451,13 @@ a.logo {
 }
 
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px){
+
+@media only screen and (max-width: 600px) {
 
   html,body {
     overflow-x: hidden;
   }
+
   .slider-images {
     width: 320px;
     height: 280px;
@@ -549,6 +546,7 @@ div#gallery-div{
     /* border: 1px solid purple; */
   }
 
+  /******* MOBILE FOOTER STYLING *******/
   p.bottom-left-headline{
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
@@ -573,11 +571,22 @@ div#gallery-div{
 
   #bottom-homepage-div{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: center; */
   }
 
   #bottom-homepage-div h2{ 
   font-size: 24px;
+  margin-top: 0;
+  }
+
+  #delivery-info-div {
+    margin-bottom: 0;
+  }
+
+  .delivery-link {
+    display: block;
   }
 
 .bigger-p{
@@ -588,26 +597,22 @@ p.smaller-p{
   font-size: 15px;
 }
 
-#copyright-info{
-  position: relative;
-  top: -50px;
+.desktop-only{
+  display: none;
 }
 
-#hours-h2{
-  position: relative;
-  top: -100px;
-  left: 20px;
+#bottom-left-div {
+  margin: 8vw 8vw 0 8vw;
 }
 
-#bottom-right-div{
-  position: relative;
-  top: -20px; 
+#bottom-right-div {
+  margin: 0vw 8vw 8vw 8vw;
 }
 
 #bottom-right-div p.smaller-p{
   position: relative;
-  padding-top: -20px;;
-  left: 20px;
+  /* padding-top: -20px;;
+  left: 20px; */
 }
 
 h2#brunch-h2{
