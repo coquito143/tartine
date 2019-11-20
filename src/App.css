@@ -142,6 +142,17 @@ font-size: 1.2em;
   width: 80vw;
 }
 
+#brunch-hero-text {
+  font-family: "Frutiger-Roman";
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  top: 16vh;
+  left: 15vw;
+  margin-bottom:0;
+}
+
 #brunch-menu-div {
   margin-bottom: 5vw;
 }
@@ -168,6 +179,7 @@ font-size: 1.2em;
 .menu-blurb-div p{
   margin-left: 5vw;
   margin-right: 10vw;
+  margin-bottom: 0;
   font-family: "Frutiger-Roman";
   font-size: 1.2em;
   font-weight: normal;
@@ -302,59 +314,6 @@ font-size: 1.2em;
   font-size: 0.7em;
   margin-bottom: 10vh;
 }
-
-
-/* ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff6e6;
-  width: 1440px;
-  height: 140px;
-}
-
-ul.topnav li {
-  float: right;
-}
-
-ul.topnav li a {
-  display: block;
-  color: #53463f;
-  text-align: center;
-  padding: 30px 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 24px;
-  width: 115px;
-  height: 42px;
-  margin-top: 20px;
-}
-
-ul.topnav li a:hover:not(.active) {
-  background-color: white;
-}
-
-ul.topnav li a.active ul.topnav li.right {
-  float: right;
-}
-
-.topnav a {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-a.logo {
-  margin-right: 375px;
-  padding-right: 70px;
-}
-
-.bottom-left-headline {
-  font-family: "FrutigerLTStd-Bold";
-  
-  
-} */
-
 
 /* ===========gallery page styling=========== */
 
@@ -529,22 +488,22 @@ a.logo {
 }
 
 #bottom-nav-div{
- 
-  width: 104%;
-  height: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
   #address-div p{
-  width: 100px;
+  width: 120px;
   height: 28px;
   font-family: "Frutiger-Roman";
   src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-  font-size: 10px;
+  font-size: 12px;
   text-align: left;
   color: var(--greyish-brown);
-  position: relative;
+  margin-top: 20px;
+  /* position: relative;
   top: 17px;
-  left: 20px;
+  left: 20px; */
   
   }
 
@@ -556,12 +515,14 @@ a.logo {
     height: 20px;
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-  font-size: 8px;
+  font-size: 12px;
   color: var(--greyish-brown);
-  position: relative;
- left: 10px;
-  top: 30px;
+  margin-top: 20px;
  
+  }
+  #logo-div {
+    margin-right: 0;
+    margin-left:0;
   }
 
   #logo-img{
@@ -569,7 +530,7 @@ a.logo {
     position: absolute;
     top: 13px;
     left: 4px;
-    width: 40%;
+    width: 100px;
   }
 
   #nav-right-div a{
@@ -666,32 +627,40 @@ p.smaller-p{
   left: 20px; */
 }
 
+/* MOBILE MENU STYLING *********/
+
 h2#brunch-h2{
   left: 20px;
 }
 
 
 #brunch-hero-img {
-  height: 120px;
-  width: 320px;
-  object-fit: cover;
+  height: 30vw;
+  width: 100%;
+  /* width: 320px;
+  object-fit: cover; */
   /* object-position: 50px; */
   margin: 0px;
 }
 
+#brunch-hero-text {
+  top: 20vh;
+  left: 5vw;
+}
 
-.menu-items-left-div p {
+.dish-category-h2 {
+  margin:20px;
+
+}
+
+p.menu-items-left-div,p.menu-items-right-div {
   align-items: center;
   margin: 0px;
 }
 
-.menu-items-right-div p {
-  align-items: center;
-  margin: 0;
-}
 
-.menu-items-right-div{
-  margin: 0 !important;
+.menu-items-right-div, .menu-items-left-div{
+  margin-left: 20px;
 }
 
 .menu-items-div {
@@ -714,7 +683,7 @@ h2#brunch-h2{
 }
 
 .menu-blurb-div p {
-  margin: 0 15px;
+  margin: 20px;
   font-size: 14px;
 }
 

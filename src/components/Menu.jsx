@@ -4,6 +4,7 @@ export default function Menu() {
   return (
     <div id="brunch-menu-div">
       <img id="brunch-hero-img" src="https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch_vyktrk.jpg"></img>
+      <p id="brunch-hero-text">Brunch Menu</p>
       <div class="menu-description-div">
         <div class="menu-options-div">
           <a href="#brunch">Brunch</a>
