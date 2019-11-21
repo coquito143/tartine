@@ -139,11 +139,11 @@ font-size: 1.2em;
 #brunch-hero-img {
   margin-left: 10vw;
   margin-right: 10vw;
-  height: 10vw;
+  height: 90px;
   width: 80vw;
   background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch_vyktrk.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position:center;
 }
 
@@ -328,9 +328,9 @@ font-size: 1.2em;
 }
 
 #gallery-top-image {
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #galler-top-image-text{
@@ -338,7 +338,7 @@ font-size: 1.2em;
   font-size: 30px;
   position: absolute;
   bottom: 1vh;
-  left: 10vw;
+  left: 15vw;
 }
 
 #left-gallery-top {
@@ -447,8 +447,8 @@ font-size: 1.2em;
 #gallery {
   display: flex;
   flex-direction: row;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #gallery-text {
