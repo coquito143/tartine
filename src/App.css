@@ -26,7 +26,10 @@ nav {
   color: #53463f;
 }
 
-
+.google-link {
+  text-decoration: none;
+  color: inherit;
+}
 #top-nav-div,
 #bottom-nav-div {
   display: flex;
