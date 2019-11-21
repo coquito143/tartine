@@ -3,7 +3,8 @@ import React from 'react'
 export default function Menu() {
   return (
     <div id="brunch-menu-div">
-      <img id="brunch-hero-img" src="https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch_vyktrk.jpg"></img>
+      <div id="brunch-hero-img"></div>
+      <p id="brunch-hero-text">Brunch Menu</p>
       <div class="menu-description-div">
         <div class="menu-options-div">
           <a href="#brunch">Brunch</a>
@@ -11,7 +12,7 @@ export default function Menu() {
           <a href="#dinner">Dinner</a>
         </div>
         <div class="menu-blurb-div">
-          <p>From eggs Benedict to French toast, you'll enjoy our delicious brunch, which is a West Village favorite. Served Saturdays and Sundays from 10 AM to 4 PM.</p>
+          <p>From Eggs Benedict to French Toast, you'll enjoy our delicious brunch, which is a West Village favorite. Served Saturdays and Sundays from 10 AM to 4 PM.</p>
         </div>
       </div>
 
