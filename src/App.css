@@ -36,6 +36,10 @@ nav {
   width: 100%;
 }
 
+#bottom-nav-div {
+  margin-bottom: 10px;
+}
+
 #top-nav-div {
   flex-direction: row;
   justify-content: flex-end;
@@ -63,13 +67,49 @@ font-size: 1.2em;
   width: 20vh;
 }
 
+#menu-link {
+  grid-area: menu-link;
+}
+
+#bakery-link {
+  grid-area: bakery-link;
+}
+
+#gallery-link {
+  grid-area: gallery-link;
+}
+
+#menu-highlight {
+  grid-area: menu-highlight;
+  margin-left: 30px;
+}
+
+#bakery-highlight {
+  grid-area: bakery-highlight;
+  margin-left: 30px;
+}
+
+#gallery-highlight {
+  grid-area: gallery-highlight;
+  margin-left: 30px;
+}
+
 #nav-right-div {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 10px;
+  grid-template-areas: 
+    "menu-link bakery-link gallery-link"
+    "menu-highlight bakery-highlight gallery-highlight";
   width: 30%;
   margin-right: 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  justify-items: center;
+  align-items: end;
+}
+#nav-right-div a {
+  width: 33%;
+  /* text-align: right; */
 }
 
 #nav-right-div a, .menu-options-div a{
@@ -87,6 +127,12 @@ font-size: 1.2em;
   color: #45e6df;
 }
 
+#menu-highlight, #bakery-highlight, #gallery-highlight {
+  background-color:  #e87427;
+  width: 80%;
+  height: 100%;
+  text-align: right;
+}
 /********* Homepage Gallery Styling  *********/
 
 #gallery-div {
