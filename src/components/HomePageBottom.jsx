@@ -11,6 +11,7 @@ export default function HomePageBottom() {
 Don’t miss the fabulous brunch that made its own reputation with our loyal customers lining up in the street for delicious Tartine’s unique and scrumptious fare.
           <br></br>
           <br></br>
+          <i>BYOB</i><br></br>
           <i>We accept cash only. Merci.</i></p>
         <div id="delivery-info-div">
           <p class="bigger-p">

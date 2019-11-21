@@ -139,7 +139,23 @@ font-size: 1.2em;
 #brunch-hero-img {
   margin-left: 10vw;
   margin-right: 10vw;
+  height: 90px;
   width: 80vw;
+  background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch_vyktrk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#brunch-hero-text {
+  font-family: "Frutiger-Roman";
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  top: 16vh;
+  left: 15vw;
+  margin-bottom:0;
 }
 
 #brunch-menu-div {
@@ -168,6 +184,7 @@ font-size: 1.2em;
 .menu-blurb-div p{
   margin-left: 5vw;
   margin-right: 10vw;
+  margin-bottom: 0;
   font-family: "Frutiger-Roman";
   font-size: 1.2em;
   font-weight: normal;
@@ -303,59 +320,6 @@ font-size: 1.2em;
   margin-bottom: 10vh;
 }
 
-
-/* ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff6e6;
-  width: 1440px;
-  height: 140px;
-}
-
-ul.topnav li {
-  float: right;
-}
-
-ul.topnav li a {
-  display: block;
-  color: #53463f;
-  text-align: center;
-  padding: 30px 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 24px;
-  width: 115px;
-  height: 42px;
-  margin-top: 20px;
-}
-
-ul.topnav li a:hover:not(.active) {
-  background-color: white;
-}
-
-ul.topnav li a.active ul.topnav li.right {
-  float: right;
-}
-
-.topnav a {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-a.logo {
-  margin-right: 375px;
-  padding-right: 70px;
-}
-
-.bottom-left-headline {
-  font-family: "FrutigerLTStd-Bold";
-  
-  
-} */
-
-
 /* ===========gallery page styling=========== */
 
 #gallery-top-image-container{
@@ -364,9 +328,9 @@ a.logo {
 }
 
 #gallery-top-image {
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #galler-top-image-text{
@@ -374,7 +338,7 @@ a.logo {
   font-size: 30px;
   position: absolute;
   bottom: 1vh;
-  left: 10vw;
+  left: 15vw;
 }
 
 #left-gallery-top {
@@ -483,8 +447,8 @@ a.logo {
 #gallery {
   display: flex;
   flex-direction: row;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #gallery-text {
@@ -529,22 +493,22 @@ a.logo {
 }
 
 #bottom-nav-div{
- 
-  width: 104%;
-  height: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
   #address-div p{
-  width: 100px;
+  width: 120px;
   height: 28px;
   font-family: "Frutiger-Roman";
   src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-  font-size: 10px;
+  font-size: 12px;
   text-align: left;
   color: var(--greyish-brown);
-  position: relative;
+  margin-top: 20px;
+  /* position: relative;
   top: 17px;
-  left: 20px;
+  left: 20px; */
   
   }
 
@@ -555,13 +519,15 @@ a.logo {
   #phone-number-div {
     height: 20px;
     font-family: "Frutiger-Roman";
-    src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-  font-size: 8px;
-  color: var(--greyish-brown);
-  position: relative;
- left: 10px;
-  top: 30px;
- 
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 5vw;
+    margin-left: 0;
+  }
+
+  #logo-div {
+    margin-right: 0;
+    margin-left:0;
   }
 
   #logo-img{
@@ -569,14 +535,21 @@ a.logo {
     position: absolute;
     top: 13px;
     left: 4px;
-    width: 40%;
+    width: 100px;
+  }
+
+  #nav-right-div {
+    margin-right: 0;
   }
 
   #nav-right-div a{
-   
     position: relative;
     right: 170px;
     margin-left: 20px;
+  }
+
+  .carousel-track {
+    height: 270px;
   }
 
   .slider {
@@ -653,11 +626,11 @@ p.smaller-p{
 }
 
 #bottom-left-div {
-  margin: 8vw 8vw 0 8vw;
+  margin: 8vw 20px 0 20px;
 }
 
 #bottom-right-div {
-  margin: 0vw 8vw 8vw 8vw;
+  margin: 0vw 20px 8vw 20px;
 }
 
 #bottom-right-div p.smaller-p{
@@ -666,40 +639,46 @@ p.smaller-p{
   left: 20px; */
 }
 
+/* MOBILE MENU STYLING *********/
+
 h2#brunch-h2{
   left: 20px;
 }
 
 
 #brunch-hero-img {
-  height: 120px;
-  width: 320px;
-  object-fit: cover;
-  /* object-position: 50px; */
+  height: 30vw;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch-mobile_lrkh9b.jpg");
+  background-size: unset;
   margin: 0px;
 }
 
+#brunch-hero-text {
+  top: 20vh;
+  left: 5vw;
+}
 
-.menu-items-left-div p {
+.dish-category-h2 {
+  margin:20px;
+  font-size: 28px;
+}
+
+p.menu-items-left-div,p.menu-items-right-div {
   align-items: center;
   margin: 0px;
 }
 
-.menu-items-right-div p {
-  align-items: center;
-  margin: 0;
-}
 
-.menu-items-right-div{
-  margin: 0 !important;
-}
+.menu-items-right-div {
+  margin-right: 0;
+} 
 
 .menu-items-div {
   margin-right: 20px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .menu-description-div {
@@ -709,18 +688,19 @@ h2#brunch-h2{
 }
 
 
-.left-menu-item{
- margin: 0px;
-}
-
 .menu-blurb-div p {
-  margin: 0 15px;
+  margin: 20px;
   font-size: 14px;
 }
 
-.right-menu-item {
+.right-menu-item, .left-menu-item {
 margin: 0px;
 }
+
+.right-menu-item h3, .left-menu-item h3 {
+  margin-bottom: 7px;
+  font-size: 20px;
+  }
 
 .menu-items-div p {
 margin: 0px;
