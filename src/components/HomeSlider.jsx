@@ -6,7 +6,7 @@ export default function HomeSlider() {
   const settings = {
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     className: "slider",
     initialSlide: true
