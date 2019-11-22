@@ -14,7 +14,7 @@ export default function HomeSlider() {
   return (
     <div id="gallery-div">
       <Slider dots {...settings}>
-        <div>
+        <div class="slider-box">
           <img
             className="slider-images"
             src="https://i.imgur.com/9ZXH9iK.jpg"
@@ -24,7 +24,7 @@ export default function HomeSlider() {
           </p>
           <Link className="bottom-left-text" to="/gallery"><p>Take a look ➜</p></Link>
           </div>
-        <div>
+        <div class="slider-box">
           <img
             className="slider-images"
             src="https://i.imgur.com/F0sXfXC.jpg"
@@ -34,7 +34,7 @@ export default function HomeSlider() {
           </p>
           <Link className="bottom-left-text" to="/menu"><p>See our dishes ➜</p></Link>
         </div>
-        <div>
+        <div class="slider-box">
           <img
             className="slider-images"
             src="https://i.imgur.com/Up1iYwf.jpg"

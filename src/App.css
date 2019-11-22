@@ -9,9 +9,9 @@ body {
 @font-face {
   font-family: "Frutiger-Roman";
   src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-} 
+}
 
-@font-face { 
+@font-face {
   font-family: "Frutiger-Bold";
   src: url("./fonts/FrutigerLTStd-Bold.otf") format("woff2");
 }
@@ -30,6 +30,11 @@ nav {
   text-decoration: none;
   color: inherit;
 }
+
+.google-link:hover {
+  color: #45e6df;
+}
+
 #top-nav-div,
 #bottom-nav-div {
   display: flex;
@@ -41,9 +46,9 @@ nav {
   justify-content: flex-end;
 }
 
-#top-nav-div p{
-margin-bottom: 0;
-font-size: 1.2em;
+#top-nav-div p {
+  margin-bottom: 0;
+  font-size: 1.2em;
 }
 
 #phone-number-div {
@@ -72,7 +77,8 @@ font-size: 1.2em;
   align-items: center;
 }
 
-#nav-right-div a, .menu-options-div a{
+#nav-right-div a,
+.menu-options-div a {
   text-decoration: none;
   color: inherit;
   font-size: 1.2em;
@@ -83,7 +89,8 @@ font-size: 1.2em;
   letter-spacing: normal;
 }
 
-#nav-right-div a:hover, .menu-options-div a:hover{
+#nav-right-div a:hover,
+.menu-options-div a:hover {
   color: #45e6df;
 }
 
@@ -105,9 +112,9 @@ font-size: 1.2em;
 }
 
 .carousel-dots li {
-  background-color: black;
-  border-radius: 10px;
-  border-width: 1px;
+  color: none;
+  background-color: none;
+  border-radius: 1px;
 }
 
 .carousel-dots li.carousel-dots-active button:before {
@@ -116,7 +123,7 @@ font-size: 1.2em;
 }
 
 .bottom-left-headline {
-  font-family: 'Frutiger-Bold';
+  font-family: "Frutiger-Bold";
   font-size: 36px;
   color: #ffffff;
   position: absolute;
@@ -124,8 +131,8 @@ font-size: 1.2em;
   left: 60px;
 }
 
-.bottom-left-text{
-  font-family: 'Frutiger-Bold';
+.bottom-left-text {
+  font-family: "Frutiger-Bold";
   font-size: 26px;
   text-decoration: none;
   color: #45e6df;
@@ -147,7 +154,7 @@ font-size: 1.2em;
   background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch_vyktrk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
 }
 
 #brunch-hero-text {
@@ -158,7 +165,7 @@ font-size: 1.2em;
   position: absolute;
   top: 16vh;
   left: 15vw;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 #brunch-menu-div {
@@ -171,7 +178,7 @@ font-size: 1.2em;
 }
 
 .menu-options-div {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
@@ -184,7 +191,7 @@ font-size: 1.2em;
   text-align: center;
 }
 
-.menu-blurb-div p{
+.menu-blurb-div p {
   margin-left: 5vw;
   margin-right: 10vw;
   margin-bottom: 0;
@@ -199,7 +206,7 @@ font-size: 1.2em;
 
 .dish-category-h2 {
   margin-left: 12vw;
-  font-family: 'FrutigerBold';
+  font-family: "FrutigerBold";
   font-size: 1.8em;
   color: #e87427;
 }
@@ -208,7 +215,7 @@ font-size: 1.2em;
   grid-template-columns: 1fr 1fr;
 }
 
-.left-menu-item{
+.left-menu-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -224,7 +231,7 @@ font-size: 1.2em;
 }
 
 .menu-item h3 {
-  font-family: 'Frutiger-Roman';
+  font-family: "Frutiger-Roman";
   font-size: 1.2em;
   font-weight: bold;
   font-stretch: normal;
@@ -240,7 +247,7 @@ font-size: 1.2em;
 
 .menu-items-left-div p {
   margin: 0 5vw 2vw 15vw;
-  font-family: 'Frutiger-Light';
+  font-family: "Frutiger-Light";
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -251,7 +258,7 @@ font-size: 1.2em;
 
 .menu-items-right-div p {
   margin: 0 5vw 2vw 5vw;
-  font-family: 'Frutiger-Light';
+  font-family: "Frutiger-Light";
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -268,11 +275,12 @@ font-size: 1.2em;
   grid-template-columns: 1fr 1fr;
 }
 
-#bottom-homepage-div h2{
+#bottom-homepage-div h2 {
   font-family: "Frutiger-Bold";
   font-size: 1.8em;
   color: #e87427;
   margin-top: 5vh;
+
 }
 
 .bigger-p {
@@ -297,7 +305,6 @@ font-size: 1.2em;
   color: #45e6df;
   text-decoration: none;
 }
-
 
 #bottom-left-div {
   margin-left: 10vw;
@@ -325,7 +332,7 @@ font-size: 1.2em;
 
 /* ===========gallery page styling=========== */
 
-#gallery-top-image-container{
+#gallery-top-image-container {
   position: relative;
   color: #ffffff;
 }
@@ -336,8 +343,8 @@ font-size: 1.2em;
   margin-right: 10vw;
 }
 
-#galler-top-image-text{
-  font-family: 'Frutiger-Bold';
+#galler-top-image-text {
+  font-family: "Frutiger-Bold";
   font-size: 30px;
   position: absolute;
   bottom: 1vh;
@@ -356,7 +363,7 @@ font-size: 1.2em;
 
 .popup-content {
   border: none !important;
-  background :  none !important;
+  background: none !important;
 }
 
 #right-gallery-top {
@@ -457,7 +464,7 @@ font-size: 1.2em;
 #gallery-text {
   font-family: "Frutiger-Roman";
   width: 600px;
-  height:120px;
+  height: 120px;
   font-size: 24px;
   margin-top: 10vh;
   margin-bottom: 7vh;
@@ -465,57 +472,69 @@ font-size: 1.2em;
 }
 
 #right-gallery {
-  margin-left:5vw;
-  margin-right:5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
-
 
 /* =========media query=========== */
 
-
 @media only screen and (max-width: 600px) {
-
-  html,body {
+  html,
+  body {
     overflow-x: hidden;
+  }
+  .bottom-left-headline {
+    position: absolute;
+    bottom: 1px;
+    left: 6px;
   }
 
   .slider-images {
-    width: 320px;
+    width: 100vw;
     height: 280px;
   }
 
   .slider {
-    width: 80vw;
+    
+    width: 100vw;
+  }
+  .slider-box {
+    height: 0px;
   }
 
-  #top-nav-div{
-  
-  display: flex;
-  width: 104%;
-  height: 60px;
-}
+  .carousel-row {
+    height: 270px;
+    width: 100vw;
+  }
+  .carousel-dots{
+    margin-bottom: 40px;
+  }
+  #top-nav-div {
+    display: flex;
+    width: 104%;
+    height: 60px;
+  }
 
-#bottom-nav-div{
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+  #bottom-nav-div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-  #address-div p{
-  width: 120px;
-  height: 28px;
-  font-family: "Frutiger-Roman";
-  src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-  font-size: 12px;
-  text-align: left;
-  color: var(--greyish-brown);
-  margin-top: 20px;
-  /* position: relative;
+  #address-div p {
+    width: 120px;
+    height: 28px;
+    font-family: "Frutiger-Roman";
+    src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
+    font-size: 12px;
+    text-align: left;
+    color: var(--greyish-brown);
+    margin-top: 20px;
+    /* position: relative;
   top: 17px;
   left: 20px; */
-  
   }
 
-  .dot{
+  .dot {
     visibility: hidden;
   }
 
@@ -530,11 +549,10 @@ font-size: 1.2em;
 
   #logo-div {
     margin-right: 0;
-    margin-left:0;
+    margin-left: 0;
   }
 
-  #logo-img{
-    
+  #logo-img {
     position: absolute;
     top: 13px;
     left: 4px;
@@ -545,7 +563,7 @@ font-size: 1.2em;
     margin-right: 0;
   }
 
-  #nav-right-div a{
+  #nav-right-div a {
     position: relative;
     right: 170px;
     margin-left: 20px;
@@ -561,31 +579,28 @@ font-size: 1.2em;
     right: 35px;
   }
 
-div#gallery-div{
+  div#gallery-div {
     min-height: 20vh;
     position: relative;
-    
   }
 
   .slider-images {
     width: 100%;
     object-fit: cover;
-    
   }
 
   /******* MOBILE FOOTER STYLING *******/
-  p.bottom-left-headline{
+  p.bottom-left-headline {
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
     font-size: 24px;
     font-weight: bold;
     position: relative;
-   bottom: 150px;
+    bottom: 150px;
     left: 20px;
-   
   }
 
-  a.bottom-left-text{
+  a.bottom-left-text {
     width: 200px;
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
@@ -593,19 +608,18 @@ div#gallery-div{
     font-weight: bold;
     margin-bottom: 40px;
     margin-left: -40px;
-    
   }
 
-  #bottom-homepage-div{
+  #bottom-homepage-div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    
   }
 
-  #bottom-homepage-div h2{ 
-  font-size: 24px;
-  margin-top: 0;
+  #bottom-homepage-div h2 {
+    font-size: 24px;
+    margin-top: 0;
   }
 
   #delivery-info-div {
@@ -616,100 +630,95 @@ div#gallery-div{
     display: block;
   }
 
-.bigger-p{
-  font-size: 18px;
-}
-
-p.smaller-p{
-  font-size: 15px;
-}
-
-.desktop-only{
-  display: none;
-}
-
-#bottom-left-div {
-  margin: 8vw 20px 0 20px;
-}
-
-#bottom-right-div {
-  margin: 0vw 20px 8vw 20px;
-}
-
-#bottom-right-div p.smaller-p{
-  position: relative;
-  /* padding-top: -20px;;
-  left: 20px; */
-}
-
-/* MOBILE MENU STYLING *********/
-
-h2#brunch-h2{
-  left: 20px;
-}
-
-
-#brunch-hero-img {
-  height: 30vw;
-  width: 100%;
-  background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch-mobile_lrkh9b.jpg");
-  background-size: unset;
-  margin: 0px;
-}
-
-#brunch-hero-text {
-  top: 20vh;
-  left: 5vw;
-}
-
-.dish-category-h2 {
-  margin:20px;
-  font-size: 28px;
-}
-
-p.menu-items-left-div,p.menu-items-right-div {
-  align-items: center;
-  margin: 0px;
-}
-
-
-.menu-items-right-div {
-  margin-right: 0;
-} 
-
-.menu-items-div {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.menu-description-div {
-  display: flex;
-  flex-direction: column-reverse;
-
-}
-
-
-.menu-blurb-div p {
-  margin: 20px;
-  font-size: 14px;
-}
-
-.right-menu-item, .left-menu-item {
-margin: 0px;
-}
-
-.right-menu-item h3, .left-menu-item h3 {
-  margin-bottom: 7px;
-  font-size: 20px;
+  .bigger-p {
+    font-size: 18px;
   }
 
-.menu-items-div p {
-margin: 0px;
+  p.smaller-p {
+    font-size: 15px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  #bottom-left-div {
+    margin: 8vw 20px 0 20px;
+  }
+
+  #bottom-right-div {
+    margin: 0vw 20px 8vw 20px;
+  }
+
+  #bottom-right-div p.smaller-p {
+    position: relative;
+    /* padding-top: -20px;;
+  left: 20px; */
+  }
+
+  /* MOBILE MENU STYLING *********/
+
+  h2#brunch-h2 {
+    left: 20px;
+  }
+
+  #brunch-hero-img {
+    height: 30vw;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dcagc4c0j/image/upload/v1574110900/photo-title-brunch-mobile_lrkh9b.jpg");
+    background-size: unset;
+    margin: 0px;
+  }
+
+  #brunch-hero-text {
+    top: 20vh;
+    left: 5vw;
+  }
+
+  .dish-category-h2 {
+    margin: 20px;
+    font-size: 28px;
+  }
+
+  p.menu-items-left-div,
+  p.menu-items-right-div {
+    align-items: center;
+    margin: 0px;
+  }
+
+  .menu-items-right-div {
+    margin-right: 0;
+  }
+
+  .menu-items-div {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-description-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .menu-blurb-div p {
+    margin: 20px;
+    font-size: 14px;
+  }
+
+  .right-menu-item,
+  .left-menu-item {
+    margin: 0px;
+  }
+
+  .right-menu-item h3,
+  .left-menu-item h3 {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+
+  .menu-items-div p {
+    margin: 0px;
+  }
 }
-
-
-}
-
-
