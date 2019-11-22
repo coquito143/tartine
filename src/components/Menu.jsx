@@ -7,7 +7,10 @@ export default function Menu() {
       <p id="brunch-hero-text">Brunch Menu</p>
       <div class="menu-description-div">
         <div class="menu-options-div">
-          <a href="#brunch">Brunch</a>
+          <div id="brunch-menu-heading">
+            <a href="#brunch">Brunch</a>
+            <div id="brunch-menu-highlight" class="desktop-only"></div>
+          </div>
           <a href="#lunch">Lunch</a>
           <a href="#dinner">Dinner</a>
         </div>
@@ -40,17 +43,17 @@ export default function Menu() {
             <h3>Eggs Benedict</h3>
             <h3>$16</h3>
           </div>
-          <p>poached egg, spinach, English muffins and hollandaise sauce</p>
+          <p>poached egg, Canadian bacon, English muffin and hollondaise sauce</p>
           <div class="right-menu-item">
-            <h3>Eggs Norvegienne</h3>
-            <h3>$17</h3>
+            <h3>Omelette</h3>
+            <h3>$13</h3>
           </div>
-          <p>poached egg, smoked salmon, English muffins and hollandaise sauce</p>
+          <p>any combination of: tomatoes, onion, spinach, mushrooms, cheese</p>
           <div class="right-menu-item">
-            <h3>Tunisian Breakfast</h3>
+            <h3>Baked Eggs</h3>
             <h3>$16</h3>
           </div>
-          <p>two poached eggs, semolina bread, chickpeas, roasted red peppers</p>
+          <p>tomato basil sauce, chickpeas, cauliflower, lamb sausage</p>
         </div>
 
       </div>
@@ -102,7 +105,7 @@ export default function Menu() {
             <h3>$15</h3>
           </div>
           <p>home baked brioche and smoked bacon</p>
-        
+
         </div>
         <div class="menu-items-right-div">
           <div class="right-menu-item">
