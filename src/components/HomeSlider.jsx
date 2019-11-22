@@ -8,13 +8,12 @@ export default function HomeSlider() {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 4000,
-    className: "slider",
     initialSlide: true
   };
   return (
     <div id="gallery-div">
       <Slider dots {...settings}>
-        <div class="slider-box">
+        <div className="slider-box">
           <img
             className="slider-images"
             src="https://i.imgur.com/9ZXH9iK.jpg"
