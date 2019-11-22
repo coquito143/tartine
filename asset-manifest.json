@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.414979a6.chunk.css",
-    "main.js": "/repository-name/static/js/main.72079e67.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.72079e67.chunk.js.map",
-    "runtime-main.js": "/repository-name/static/js/runtime-main.dee4319b.js",
-    "runtime-main.js.map": "/repository-name/static/js/runtime-main.dee4319b.js.map",
-    "static/css/2.9d04c5f8.chunk.css": "/repository-name/static/css/2.9d04c5f8.chunk.css",
-    "static/js/2.581ec7a1.chunk.js": "/repository-name/static/js/2.581ec7a1.chunk.js",
-    "static/js/2.581ec7a1.chunk.js.map": "/repository-name/static/js/2.581ec7a1.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.95bc93a256983ef0c4d81e279b92b278.js": "/repository-name/precache-manifest.95bc93a256983ef0c4d81e279b92b278.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/2.9d04c5f8.chunk.css.map": "/repository-name/static/css/2.9d04c5f8.chunk.css.map",
-    "static/css/main.414979a6.chunk.css.map": "/repository-name/static/css/main.414979a6.chunk.css.map",
-    "static/media/App.css": "/repository-name/static/media/FrutigerLTStd-Roman.1edd1a4d.otf"
+    "main.css": "/tartine/static/css/main.33ae859e.chunk.css",
+    "main.js": "/tartine/static/js/main.299f713f.chunk.js",
+    "main.js.map": "/tartine/static/js/main.299f713f.chunk.js.map",
+    "runtime-main.js": "/tartine/static/js/runtime-main.b504986f.js",
+    "runtime-main.js.map": "/tartine/static/js/runtime-main.b504986f.js.map",
+    "static/css/2.9d04c5f8.chunk.css": "/tartine/static/css/2.9d04c5f8.chunk.css",
+    "static/js/2.581ec7a1.chunk.js": "/tartine/static/js/2.581ec7a1.chunk.js",
+    "static/js/2.581ec7a1.chunk.js.map": "/tartine/static/js/2.581ec7a1.chunk.js.map",
+    "index.html": "/tartine/index.html",
+    "precache-manifest.8adbb724d6f4a9abd6b8f37cd6a0b0c3.js": "/tartine/precache-manifest.8adbb724d6f4a9abd6b8f37cd6a0b0c3.js",
+    "service-worker.js": "/tartine/service-worker.js",
+    "static/css/2.9d04c5f8.chunk.css.map": "/tartine/static/css/2.9d04c5f8.chunk.css.map",
+    "static/css/main.33ae859e.chunk.css.map": "/tartine/static/css/main.33ae859e.chunk.css.map",
+    "static/media/App.css": "/tartine/static/media/FrutigerLTStd-Roman.1edd1a4d.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.dee4319b.js",
+    "static/js/runtime-main.b504986f.js",
     "static/css/2.9d04c5f8.chunk.css",
     "static/js/2.581ec7a1.chunk.js",
-    "static/css/main.414979a6.chunk.css",
-    "static/js/main.72079e67.chunk.js"
+    "static/css/main.33ae859e.chunk.css",
+    "static/js/main.299f713f.chunk.js"
   ]
 }
