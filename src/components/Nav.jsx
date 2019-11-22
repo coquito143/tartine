@@ -27,9 +27,9 @@ export default function Nav(props) {
           <Link id="menu-link" to="/menu" onClick={() => props.handleClick('menu')}>Menu</Link>
           <a id="bakery-link" href="#bakery" onClick={() => props.handleClick('bakery')}>Bakery</a>
           <Link id="gallery-link" to="/gallery" onClick={() => props.handleClick('gallery')}>Gallery</Link>
-          {props.menu_selected && <div id="menu-highlight"></div>}
-          {props.bakery_selected && <div id="bakery-highlight"></div>}
-          {props.gallery_selected && <div id="gallery-highlight"></div>}
+          {props.menu_selected && <div id="menu-highlight" class="desktop-only"></div>}
+          {props.bakery_selected && <div id="bakery-highlight" class="desktop-only"></div>}
+          {props.gallery_selected && <div id="gallery-highlight" class="desktop-only"></div>}
         </div>
       </div>
     </nav>
