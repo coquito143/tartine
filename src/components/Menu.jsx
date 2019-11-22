@@ -12,7 +12,7 @@ export default function Menu() {
           <a href="#dinner">Dinner</a>
         </div>
         <div class="menu-blurb-div">
-          <p>From Eggs Benedict to French Toast, you'll enjoy our delicious brunch, which is a West Village favorite. Served Saturdays and Sundays from 10 AM to 4 PM.</p>
+          <p>From eggs Benedict to French toast, you'll enjoy our delicious brunch, which is a West Village favorite. Served Saturdays and Sundays from 10 AM to 4 PM.</p>
         </div>
       </div>
 
