@@ -15,28 +15,28 @@ class App extends Component {
   }
 
   handleClick = async (selection) => {
-    if (selection == 'menu') {
+    if (selection === 'menu') {
       this.setState({
         menu_selected: true,
         bakery_selected: false,
         gallery_selected: false
       })
     }
-    else if (selection == 'gallery') {
+    else if (selection === 'gallery') {
       this.setState({
         menu_selected: false,
         bakery_selected: false,
         gallery_selected: true
       })
     }
-    else if (selection == 'home') {
+    else if (selection === 'home') {
       this.setState({
         menu_selected: false,
         bakery_selected: false,
         gallery_selected: false
       })
     }
-    else if (selection == 'bakery') {
+    else if (selection === 'bakery') {
       this.setState({
         menu_selected: false,
         bakery_selected: true,

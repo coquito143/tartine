@@ -143,7 +143,7 @@ nav {
 /********* Homepage Gallery Styling  *********/
 
 #gallery-div {
-  min-height: 63vh;
+  height: 63vh;
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -174,7 +174,7 @@ nav {
   color: #ffffff;
   position: absolute;
   bottom: 116px;
-  left: 60px;
+  margin-left: 4vw; 
 }
 
 .bottom-left-text {
@@ -184,7 +184,7 @@ nav {
   color: #45e6df;
   position: absolute;
   bottom: 77px;
-  left: 60px;
+  margin-left: 4vw;
 }
 
 .bottom-left-text:hover {
@@ -552,15 +552,16 @@ nav {
   .slider-images {
     width: 100vw;
     height: 280px;
+    object-fit: contain;
   }
 
   .slider {
     
     width: 100vw;
   }
-  .slider-box {
+  /* .slider-box {
     height: 0px;
-  }
+  } */
 
   .carousel-row {
     height: 270px;
@@ -575,6 +576,10 @@ nav {
     height: 60px;
   }
 
+  #top-nav-div p {
+    margin-right: 5vw;
+  }
+
   #bottom-nav-div {
     flex-direction: row;
     justify-content: space-evenly;
@@ -584,8 +589,7 @@ nav {
     width: 120px;
     height: 28px;
     font-family: "Frutiger-Roman";
-    src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-    font-size: 12px;
+    font-size: 13px;
     text-align: left;
     color: var(--greyish-brown);
     margin-top: 20px;
@@ -615,7 +619,7 @@ nav {
   #logo-img {
     position: absolute;
     top: 13px;
-    left: 4px;
+    left: 10px;
     width: 100px;
   }
 
@@ -639,9 +643,10 @@ nav {
     right: 35px;
   }
 
-  div#gallery-div {
-    min-height: 20vh;
-    position: relative;
+  #gallery-div {
+    height: 320px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   .slider-images {
@@ -649,25 +654,30 @@ nav {
     object-fit: cover;
   }
 
+  .indicators {
+    display: none !important;
+  }
   /******* MOBILE FOOTER STYLING *******/
+
+ 
   p.bottom-left-headline {
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     position: relative;
-    bottom: 150px;
-    left: 20px;
+    bottom: 140px;
+    /* left: 20px; */
   }
 
   a.bottom-left-text {
     width: 200px;
     font-family: "Frutiger-Roman";
     src: url("./fonts/FrutigerLTStd-Roman.otf") format("woff2");
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 40px;
-    margin-left: -40px;
+    margin-left: 25px;
   }
 
   #bottom-homepage-div {
