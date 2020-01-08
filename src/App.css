@@ -153,7 +153,7 @@ nav {
 }
 
 .slider-images {
-  height: 500px;
+  height: 50vh;
   width: 100%;
 }
 
@@ -551,7 +551,7 @@ nav {
 
   .slider-images {
     width: 100vw;
-    height: 280px;
+    height: 290px;
     object-fit: contain;
   }
 
